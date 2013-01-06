@@ -1,0 +1,27 @@
+
+CohibaPopularSearches
+[31m  test_cohiba_popular_searches (FAILED - 1)[0m
+
+Failures:
+
+  1) CohibaPopularSearches test_cohiba_popular_searches
+     [31mFailure/Error:[0m [31m@verification_errors.should == [][0m
+       [31mexpected: [][0m
+       [31m     got: [#<RSpec::Expectations::ExpectationNotMetError: expected: "Cohiba Pequenos Cigarillos - Thompson Cigar"[0m
+       [31m     got: "" (using ==)>, #<RSpec::Expectations::ExpectationNotMetError: expected: "Cohiba Churchill Cigars - Thompson Cigar"[0m
+       [31m     got: "" (using ==)>] (using ==)[0m
+       [31mDiff:[0m
+       [31m@@ -1,2 +1,5 @@[0m
+       [31m-[][0m
+       [31m+[#<RSpec::Expectations::ExpectationNotMetError: expected: "Cohiba Pequenos Cigarillos - Thompson Cigar"[0m
+       [31m+     got: "" (using ==)>,[0m
+       [31m+ #<RSpec::Expectations::ExpectationNotMetError: expected: "Cohiba Churchill Cigars - Thompson Cigar"[0m
+       [31m+     got: "" (using ==)>][0m
+[36m     # ./spec/cohiba-popular-searches.rb:20:in `block (2 levels) in <top (required)>'[0m
+
+Finished in 1 minute 15.78 seconds
+[31m1 example, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/cohiba-popular-searches.rb:23[0m [36m# CohibaPopularSearches test_cohiba_popular_searches[0m
